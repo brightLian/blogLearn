@@ -1,0 +1,25 @@
+{
+  "name": "blogLearn",
+  "version": "1.0.0",
+  "description": "通过他人文章&博客学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "basicsTS:build": "vuepress build basicsTS",
+    "basicsTS:dev": "vuepress dev basicsTS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brightLian/blogLearn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brightLian/blogLearn/issues"
+  },
+  "homepage": "https://github.com/brightLian/blogLearn#readme",
+  "devDependencies": {
+    "vuepress": "^1.5.1"
+  }
+}
