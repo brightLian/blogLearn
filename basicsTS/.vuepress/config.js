@@ -18,8 +18,8 @@ module.exports = {
             {
                 title: '简介',   // 标题：必要的
                 path: '/chapterFirst/first',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-                collapsable: true, // 展开侧边栏： 可选的, 默认值是 true,
-                sidebarDepth: 1,    // 侧边栏深度：可选的, 默认值是 1
+                collapsable: false, // 展开侧边栏： 可选的, 默认值是 true,
+                sidebarDepth: 2,    // 侧边栏深度：可选的, 默认值是 1
                 children: [
                     '/chapterFirst/first.md',
                     '/chapterFirst/second.md',
@@ -29,12 +29,13 @@ module.exports = {
             {
                 title: '基础',   // 标题：必要的
                 path: '/chapterSecond/first',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-                collapsable: true, // 展开侧边栏： 可选的, 默认值是 true,
-                sidebarDepth: 1,    // 侧边栏深度：可选的, 默认值是 1
+                collapsable: false, // 展开侧边栏： 可选的, 默认值是 true,
+                sidebarDepth: 2,    // 侧边栏深度：可选的, 默认值是 1
                 children: [
                     '/chapterSecond/first.md',
-                    // '/chapterSecond/second.md',
-                    // '/chapterSecond/third.md',
+                    '/chapterSecond/second.md',
+                    '/chapterSecond/third.md',
+                    '/chapterSecond/fourth.md',
                 ]
             }
         ]
