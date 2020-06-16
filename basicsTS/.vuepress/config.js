@@ -36,6 +36,7 @@ module.exports = {
                     '/chapterSecond/second.md',
                     '/chapterSecond/third.md',
                     '/chapterSecond/fourth.md',
+                    '/chapterSecond/fifth.md',
                 ]
             }
         ]
